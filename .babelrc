@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
+// customize-cra
+// npm install --save-dev babel-plugin-module-resolver
+
+// import App from '~/App'
